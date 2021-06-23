@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "TurquoiseTNT's Pack",
+    "uuid": "b7b03258-a88c-36d4-ae47-ff202c922f4d",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "7f4ebfbc-b1a7-37b7-9d69-d635b7808e21",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7a9ad10f-0936-31dc-83ad-148e94ede837",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "sebas, MCreator"
+    ],
+    "url": "https://mcreator.net"
+  }
+}
