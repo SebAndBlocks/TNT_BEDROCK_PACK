@@ -13,6 +13,11 @@
           "damage": 1
         }
       },
+      "tnt_pack:turquoise_tnt_pickaxe": {
+        "minecraft:attack": {
+          "damage": 10
+        }
+      },
       "minecraft:add_bad_omen": {
         "minecraft:spell_effects": {
           "add_effects": [
@@ -181,6 +186,19 @@
               ]
             },
             "event": "minecraft:event_normal_player"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "tnt_pack:turquoise_tnt_pickaxe"
+                }
+              ]
+            },
+            "event": "tnt_pack:turquoise_tnt_pickaxe"
           }
         ]
       }
@@ -193,7 +211,16 @@
           ]
         },
         "remove": {
-          "component_groups": []
+          "component_groups": [
+            "tnt_pack:turquoise_tnt_pickaxe"
+          ]
+        }
+      },
+      "tnt_pack:turquoise_tnt_pickaxe": {
+        "add": {
+          "component_groups": [
+            "tnt_pack:turquoise_tnt_pickaxe"
+          ]
         }
       },
       "minecraft:gain_bad_omen": {

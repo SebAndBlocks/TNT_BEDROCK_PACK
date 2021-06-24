@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tnt_pack:turquoise_tnt_pickaxe",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "turquoise_tnt_pickaxe",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

@@ -4,6 +4,9 @@
   "texture_data": {
     "chicken_nugget": {
       "textures": "textures/items/chicken_nugget"
+    },
+    "turquoise_tnt_pickaxe": {
+      "textures": "textures/items/turquoisetnt_pickaxe"
     }
   }
 }

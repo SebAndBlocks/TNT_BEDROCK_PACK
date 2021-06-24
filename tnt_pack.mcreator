@@ -9,13 +9,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chicken_nugget"
+    },
+    {
+      "name": "TurquoiseTNTPickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turquoise_tnt_pickaxe"
+    },
+    {
+      "name": "ChickenNugRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chicken_nug_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.tnt_pack:chicken_nugget.name": "Chicken Nugget"
+      "item.tnt_pack:chicken_nugget.name": "Chicken Nugget",
+      "item.tnt_pack:turquoise_tnt_pickaxe.name": "TurquoiseTNT Pickaxe"
     }
   },
   "foldersRoot": {
