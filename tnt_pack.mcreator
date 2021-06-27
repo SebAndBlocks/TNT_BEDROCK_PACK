@@ -27,6 +27,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chicken_nug_recipe"
+    },
+    {
+      "name": "TNTPickRec",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_pick_rec"
     }
   ],
   "variable_elements": [],
